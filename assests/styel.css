@@ -1,0 +1,194 @@
+
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/* top-plyer section start her */
+
+hr{
+    color: #D1D1D1;
+}
+
+.contenteinar{
+    background-color: #ffff;
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+.plyer-content{
+    color: #562EFF;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 24px;
+    
+}
+.top-plyer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.plyer-name{
+    margin-left: 18px;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
+
+@media only screen and (max-width: 688px){
+    .top-plyer{
+        grid-template-columns: repeat(1, 1fr);
+        
+       
+    }
+   
+    .contenteinar{
+        width: 100%;
+     }
+}
+@media only screen and (min-width:689px ) and (max-width:900px){
+    .top-plyer{
+        grid-template-columns: repeat(2, 1fr); 
+       
+    }
+    .contenteinar{
+        width: 100%;
+     }
+}
+
+
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.top-blogs img{
+    width: 177px;
+    height: 117px;
+}
+
+.blogs{
+    display: flex;
+}
+.blogs-item{
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+span{
+    margin-right: 5px;
+    text-transform: capitalize;
+    color: #9F9F9F;
+}
+
+.blogs-item a{
+    color: #562EFF;
+    text-decoration: none;
+}
+
+@media screen and (max-width :688px){
+    .top-blogs{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .contenteinar{
+        width: 100%;
+     }
+    .blogs{
+        flex-direction: column;
+    }
+}
+  
+
+img{
+    width: 266px;
+    height: 141px; 
+}
+
+.core-titale{
+    color: #1E1E1E;
+}
+
+.corse-descript{
+    color: #ED6B4F;
+}
+.start{
+    display: flex;
+    align-items: center;
+}
+.filled{
+    color: #FFC014 ;
+}
+.star-decript{
+    margin-left: 10px;
+    color: #A2A2A2;
+}
+.fa-solid.fa-clock{
+    margin-left: 30px;
+    color: #FF4A60;
+    
+}
+.latest-corse{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+
+}
+
+
+@media screen and (max-width:688px){
+    .latest-corse{
+         grid-template-columns: repeat(1, 1fr);
+        }
+        .contenteinar{
+            width: 100%;
+         }  
+        
+   
+}
+@media screen and (min-width:689px) and (max-width:900px) {
+    .latest-corse{
+        grid-template-columns: repeat(2, 1fr);
+        
+   }
+   .contenteinar{
+   width: 100%;
+ }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
